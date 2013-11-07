@@ -10,12 +10,15 @@
 
 ##Getting Started
 
+NOTE: The Arduino comes with StandardFirmata by default. If, for whatever reason, you *know* that you need to update the firmware, follow these steps:
 1. Download and install the Arduino Client: [http://arduino.cc/en/Guide/HomePage](http://arduino.cc/en/Guide/HomePage)
 2. Follow the setup procedure, and use the "blink" test script to verify your Arduino is working.
 3. From the Arduino IDE upload the "Firmata" script: File -> Open -> Examples > Firmata > StandardFirmata
-4. Install the dependencies: `npm install`
-5. Start'er up: `node bot.js`
-6. Start dancing: `dance()`
+
+Otherwise, start here:
+1. Install the dependencies: `npm install`
+2. Start'er up: `node bot.js`
+3. Start dancing: `dance()`
 
 
 ##Controlling the bot/device with your browser
